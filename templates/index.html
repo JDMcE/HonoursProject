@@ -1,0 +1,92 @@
+{% extends "base.html" %}
+
+
+{% block title %}Home{% endblock %}
+
+{% block main %}
+
+{% autoescape false %}
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h3>Input</h3>
+
+            <div class="form-group">
+                <label>Payload</label>
+                <textarea id="payload" placeholder="Enter payload here" class="form-control"></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary" id="submit" onclick="submit();">Submit</button>
+            </div>
+            <h3>Results</h3>
+            <hr>
+            <div class="mb-3" id="output">
+                <table class="table table-striped">
+                    <tr>
+                        <td>Payload</td>
+                        <td id="tablePayload"></td>
+                    </tr>
+                    <tr>
+                        <td>Sanitized</td>
+                        <td id="tableSanitized"></td>
+                    </tr>
+                    <tr>
+                        <td>Malicious</td>
+                        <td id="tableMalicious"></td>
+                    </tr>
+                    <tr>
+                        <td>Confidence</td>
+                        <td id="tableConfidence"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endautoescape %}
+{% endblock %}
+
+
+{% block script %}
+{% autoescape false %}
+<script>
+
+    function submit() {
+
+        var payload = document.getElementById("payload");
+        var entry = {
+            payload: payload.value,
+        };
+
+        fetch('/predict', {
+            method: "POST",
+            body: JSON.stringify(entry),
+            cache: "no-cache",
+            headers: new Headers({
+                "content-type": "application/json"
+            })
+        })
+            .then(function (response) {
+                if (response.status !== 200) {
+                    console.log('Looks like there was a problem. Status code: ${response.status}');
+                    return;
+                }
+                response.json().then(function (data) {
+                    console.log(data);
+                    document.getElementById("tablePayload").innerHTML = (data.payload);
+                    document.getElementById("tableConfidence").innerHTML = (data.confidence);
+                    document.getElementById("tableMalicious").innerHTML = (data.malicious);
+                    document.getElementById("tableSanitized").innerHTML = (data.sanitized)
+                });
+            })
+            .catch(function (error) {
+                console.log("Fetch error: " + error);
+            });
+
+    }
+
+</script>
+{% endautoescape %}
+{% endblock %}
