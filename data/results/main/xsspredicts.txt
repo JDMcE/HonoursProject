@@ -1,0 +1,60 @@
+{"message": "OK", 
+	"payload": "%3Cscript/defer%3Ealert(1)%3C/script%3E", 
+	"malicious": "True", 
+	"confidence": 99.9999886125121, 
+	"sanitized": "%3Cscript/defer%3Ealert(1)%3C/script%3E"
+	}
+{"message": "OK", 
+	"payload": "data:text/html,%3Cscript%3Ealert(1)%3C/script%3E", 
+	"malicious": "True", 
+	"confidence": 99.91813192701494, 
+	"sanitized": "data:text/html,%3Cscript%3Ealert(1)%3C/script%3E"
+	}
+{"message": "OK", 
+	"payload": "%3Cscrip%3Cscript%3Et%3Ewindow.a==1?1:alert(1)%3C/scrip%3C/script%3Et%3E", 
+	"malicious": "True", 
+	"confidence": 99.99996953861907, 
+	"sanitized": "%3Cscrip%3Cscript%3Et%3Ewindow.a==1?1:alert(1)%3C/scrip%3C/script%3Et%3E"
+	}
+{"message": "OK", 
+	"payload": "%3E'%3E%22%3E%3Cscript%3Ealert(1)%3C/script%3E", 
+	"malicious": "True", 
+	"confidence": 100.0, 
+	"sanitized": "%3E'%3E%22%3E%3Cscript%3Ealert(1)%3C/script%3E"
+	}
+{"message": "OK", 
+	"payload": "%3E'%3E%22%3E%3Cscript%3Ealert(1)%3C/script%3E", 
+	"malicious": "True", 
+	"confidence": 100.0, 
+	"sanitized": "%3E'%3E%22%3E%3Cscript%3Ealert(1)%3C/script%3E"
+	}
+{"message": "OK", 
+	"payload": "%3Cscript%3Econfirm(1)%3C/script%3E", 
+	"malicious": "True", 
+	"confidence": 99.99999773446343, 
+	"sanitized": "%3Cscript%3Econfirm(1)%3C/script%3E"
+	}
+{"message": "OK", 
+	"payload": "%3Cscrip%3Cscript%3Et%3Ewindow.a==1?1:alert(1)%3C/scrip%3C/script%3Et%3E", 
+	"malicious": "True", 
+	"confidence": 99.99996953861907, 
+	"sanitized": "%3Cscrip%3Cscript%3Et%3Ewindow.a==1?1:alert(1)%3C/scrip%3C/script%3Et%3E"
+	}
+{"message": "OK", 
+	"payload": "--%3E%3C/script%3E%3Cscript%3Ealert(1)%3C/script%3E", 
+	"malicious": "True", 
+	"confidence": 100.0, 
+	"sanitized": "--%3E%3C/script%3E%3Cscript%3Ealert(1)%3C/script%3E"
+	}
+{"message": "OK", 
+	"payload": "'%3E%22%3E%3C/title%3E%3C/textarea%3E%3C/script%3E%3Cimg+src=a+onerror=alert(1)%3E", 
+	"malicious": "True", 
+	"confidence": 99.99999999999977, 
+	"sanitized": "'%3E%22%3E%3C/title%3E%3C/textarea%3E%3C/script%3E%3Cimg+src=a+onerror=alert(1)%3E"
+	}
+{"message": "OK", 
+	"payload": "%20onchange=alert(1)", 
+	"malicious": "False", 
+	"confidence": 99.99998745179172, 
+	"sanitized": "%20onchange=alert(1)"
+	}

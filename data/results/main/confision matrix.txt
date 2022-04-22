@@ -1,0 +1,57 @@
+Training accuracy: 99.09185562239703
+accuracy: 99.01287884630216
+Precision score: 99.87895294295657
+Recall: 98.21455140604077
+f1 Score: 0.9903975993998501
+
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99      6246
+           1       1.00      0.98      0.99      6721
+
+    accuracy                           0.99     12967
+   macro avg       0.99      0.99      0.99     12967
+weighted avg       0.99      0.99      0.99     12967
+
+Confulsion Matrix: [[6238    8]
+                    [ 120 6601]]
+
+
+DecisionTreeClassifier:
+Training accuracy: 99.09185562239703
+accuracy: 98.9588956582093
+Precision score: 99.86371895820714
+Recall: 98.12527897634281
+f1 Score: 0.9898686679174485
+
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99      6246
+           1       1.00      0.98      0.99      6721
+
+    accuracy                           0.99     12967
+   macro avg       0.99      0.99      0.99     12967
+weighted avg       0.99      0.99      0.99     12967
+
+Confulsion Matrix: [[6237    9]
+                    [ 126 6595]]
+
+MLPClassifier:
+Training accuracy: 99.04365262995528
+accuracy: 98.9588956582093
+Precision score: 99.83353510895884
+Recall: 98.15503645290879
+f1 Score: 0.9898717083051992
+
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99      6246
+           1       1.00      0.98      0.99      6721
+
+    accuracy                           0.99     12967
+   macro avg       0.99      0.99      0.99     12967
+weighted avg       0.99      0.99      0.99     12967
+
+Confulsion Matrix: [[6235   11]
+                    [ 124 6597]]
+

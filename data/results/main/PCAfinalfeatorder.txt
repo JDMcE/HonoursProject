@@ -1,0 +1,160 @@
+{'input size': 0.3237511, 'alert': 0.33295407, 'script': 0.30343756, 'onerror': 0.02558318, 'confirm': 0.02839357, 'img': 0.07642626, 'onload': 0.02315426, 'eval': 0.08425728, 'prompt': 0.01671499, 'src': 0.07928453, 'href': 0.03952905, 'javascript': 0.03147425, 'window': 0.01485051, 'fromcharcode': 0.18564429, 'document': 0.10350253, 'onmouseover': 0.07151184, 'cookie': 0.09534699, 'domain': 0.02672566, 'onfocus': 0.01037092, 'iframe': 0.04930953, 'onclick': 0.01535743, 'singleQuoteMark': 0.18047538, 'doubleQuoteMark': 0.22733545, 'leftBracket': 0.33436695, 'rightBracket': 0.33342515, 'leftAngleBracket': 0.31897896, 'rightAngleBracket': 0.32511826, 'backslant': 0.15632152, 'coma': 0.12260028, 'plus': 0.1390214, 'colon': 0.14254551, 'http': 0.10555829, 'file': 0.01318346}
+
+
+Sorted: = {
+'leftBracket': 0.33436695, 
+'rightBracket': 0.33342515, 
+'alert': 0.33295407, 
+'rightAngleBracket': 0.32511826, 
+'input size': 0.3237511, 
+'leftAngleBracket': 0.31897896, 
+'script': 0.30343756, 
+'doubleQuoteMark': 0.22733545, 
+'fromcharcode': 0.18564429, 
+'singleQuoteMark': 0.18047538, 
+'backslant': 0.15632152, 
+'colon': 0.14254551, 
+'plus': 0.1390214, 
+'coma': 0.12260028, 
+'http': 0.10555829, 
+'document': 0.10350253, 
+'cookie': 0.09534699, 
+'eval': 0.08425728, 
+'src': 0.07928453, 
+'img': 0.07642626, 
+'onmouseover': 0.07151184, 
+'iframe': 0.04930953, 
+'href': 0.03952905, 
+'javascript': 0.03147425, 
+'confirm': 0.02839357, 
+'domain': 0.02672566, 
+'onerror': 0.02558318, 
+'onload': 0.02315426, 
+'prompt': 0.01671499, 
+'onclick': 0.01535743, 
+'window': 0.01485051, 
+'file': 0.01318346, 
+'onfocus': 0.01037092
+}
+
+
+
+
+Sorted %4: = {
+'leftBracket': 0.3343, 
+'rightBracket': 0.3334, 
+'alert': 0.3329, 
+'rightAngleBracket': 0.3251, 
+'input size': 0.323, 
+'leftAngleBracket': 0.3189, 
+'script': 0.3034, 
+'doubleQuoteMark': 0.2273, 
+'fromcharcode': 0.1856, 
+'singleQuoteMark': 0.1804, 
+'backslant': 0.1563, 
+'colon': 0.1425, 
+'plus': 0.139, 
+'coma': 0.1226, 
+'http': 0.1055, 
+'document': 0.1035, 
+'cookie': 0.0953, 
+'eval': 0.0842, 
+'src': 0.0792, 
+'img': 0.0764, 
+'onmouseover': 0.0715, 
+'iframe': 0.0493, 
+'href': 0.0395, 
+'javascript': 0.0314, 
+'confirm': 0.0283, 
+'domain': 0.0267, 
+'onerror': 0.0255, 
+'onload': 0.0231, 
+'prompt': 0.0167, 
+'onclick': 0.0153, 
+'window': 0.0148, 
+'file': 0.0131, 
+'onfocus': 0.0103
+}
+
+
+
+Feature & Importance \\
+leftBracket & 0.3343 \\
+rightBracket & 0.3334 \\
+alert & 0.3329 \\
+rightAngleBracket & 0.3251 \\
+input size &: 0.3237 \\
+leftAngleBracket & 0.3189 \\
+script & 0.3034 \\
+doubleQuoteMark & 0.2273 \\
+fromcharcode & 0.1856 \\
+singleQuoteMark & 0.1804 \\
+backslant & 0.1563 \\
+colon & 0.1425 \\
+plus &: 0.1390 \\
+coma & 0.1226 \\
+http & 0.1055 \\
+document & 0.1035 \\
+cookie & 0.0953 \\
+eval & 0.0842 \\
+src & 0.0792 \\
+img & 0.0764 \\
+onmouseover & 0.0715 \\
+iframe & 0.0493 \\
+href & 0.0395 \\
+javascript & 0.0314 \\
+confirm & 0.0283 \\
+domain & 0.0267 \\
+onerror & 0.0255 \\
+onload & 0.0231 \\
+prompt & 0.0167 \\
+onclick & 0.0153 \\
+window & 0.0148 \\
+file & 0.0131 \\
+onfocus & 0.0103 \\
+
+\begin{table}[]
+\centering
+\caption{Feature Ranking}
+\label{tab:mainFeatureImport}
+\begin{tabular}{@{}ll|ll|ll@{}}
+\toprule
+Feature & Importance & Feature & Importance & Feature & Importance \\ \midrule
+leftBracket & 0.3343 & colon & 0.1425 & href & 0.0395 \\
+rightBracket & 0.3334 & plus & 0.1390 & javascript & 0.0314 \\
+alert & 0.3329 & coma & 0.1226 & confirm & 0.0283 \\
+rightAngleBracket & 0.3251 & http & 0.1055 & domain & 0.0267 \\
+input size & 0.3237 & document & 0.1035 & onerror & 0.0255 \\
+leftAngleBracket & 0.3189 & cookie & 0.0953 & onload & 0.0231 \\
+script & 0.3034 & eval & 0.0842 & prompt & 0.0167 \\
+doubleQuoteMark & 0.2273 & src & 0.0792 & onclick & 0.0153 \\
+fromcharcode & 0.1856 & img & 0.0764 & window & 0.0148 \\
+singleQuoteMark & 0.1804 & onmouseover & 0.0715 & file & 0.0131 \\
+backslant & 0.1563 & iframe & 0.0493 & onfocus & 0.0103 \\ \bottomrule
+\end{tabular}
+\end{table}
+
+
+
+
+zhou
+
+0 > 1 > 24 > 27 > 23 > 22 > 8 > 26 > 10 > 3 > 9
+> 2 > 5 > 15 > 29 > 25 > 12 > 11 > 18 > 6 > 7 > 4
+> 20 > 13 > 21 > 19 > 16 > 14 > 17
+
+top 10
+Length of Input
+alert
+left Angle bracket
+comma
+double quote
+single quote
+prompt
+backslant
+href
+onerror
+src
+
+
+
